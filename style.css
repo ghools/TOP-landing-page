@@ -40,8 +40,10 @@ ul {
 .container {
     display: flex;
     justify-content: center;
-    margin-left: 5%;
+    height: 450px;
+    align-items: center;
 }
+
 .container-dark {
     display: flex;
     align-items: center;
@@ -50,6 +52,19 @@ ul {
     height: 450px;
 }
 
+.container-small {
+    display: flex;
+    justify-content: center;
+}
+
+.container-grey {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
 .header {
     display: flex;
     font-size: 24px;
@@ -71,9 +86,8 @@ ul {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
-    margin-left: 40%;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .logo {
