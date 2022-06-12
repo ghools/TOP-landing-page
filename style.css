@@ -44,6 +44,33 @@ ul {
     align-items: center;
 }
 
+.container-blue {
+    background-color: #3882f6;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    color: #F9FAF8;
+}
+
+.container-blue button{
+    outline-color: #F9FAF8;
+    outline-style: solid;
+    outline-width: 1px;
+    height: 35px;
+    width: 100px;
+}
+
+.container-blue .text :nth-child(1) {
+    font-size: 24px;
+}
+.container-blue .text :nth-child(2) {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .container-dark {
     display: flex;
     align-items: center;
